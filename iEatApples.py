@@ -170,7 +170,7 @@ def main():
     plist_uri = out_dir + '/' + ipa_name + '.plist'
     html_uri = out_dir + '/index.html'
 
-    with open(file_dir + '/template.plist', 'r') as f:
+    with open(ipa, 'r') as f:
         ipa_content = f.read()
 
     with open(file_dir + '/template.plist', 'r') as f:
